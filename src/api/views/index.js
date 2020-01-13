@@ -112,7 +112,7 @@ export function fetchList() {
         {
             name: "粒子特效",
             id: 14,
-            icon: "el-icon-user-solid",
+            icon: "el-icon-star-on",
             url: "/paricla",
             children: []
         },
@@ -133,7 +133,7 @@ export function fetchList() {
         {
             name: "登录注册",
             id: 17,
-            icon: "el-icon-user-solid",
+            icon: "el-icon-thumb",
             url: "/login&regiest",
             children: []
         }

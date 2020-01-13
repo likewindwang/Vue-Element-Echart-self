@@ -5,7 +5,7 @@
             color="#fff"
             :particleOpacity="0.7"
             :particlesNumber="60"
-            shapeType="circle"
+            shapeType="star"
             :particleSize="4"
             linesColor="#fff"
             :linesWidth="1"
@@ -17,7 +17,7 @@
             hoverMode="grab"
             :clickEffect="true"
             clickMode="push"
-            class="lizi"
+            class="example"
         >
         </vue-particles>
     </div>
