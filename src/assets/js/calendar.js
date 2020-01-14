@@ -342,6 +342,7 @@ export var calendar = {
       * @return day Number
       * @eg:var _24 = calendar.getTerm(1987,3) ;//_24=4;意即1987年2月4日立春
       */
+    
     getTerm:function(y,n) {
         if(y<1900 || y>2100) {return -1;}
         if(n<1 || n>24) {return -1;}

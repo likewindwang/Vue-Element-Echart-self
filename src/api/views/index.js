@@ -131,8 +131,15 @@ export function fetchList() {
             children: []
         },
         {
-            name: "登录注册",
+            name: "LoveTree",
             id: 17,
+            icon: "el-icon-s-comment",
+            url: "/love",
+            children: []
+        },
+        {
+            name: "登录注册",
+            id: 18,
             icon: "el-icon-thumb",
             url: "/login&regiest",
             children: []

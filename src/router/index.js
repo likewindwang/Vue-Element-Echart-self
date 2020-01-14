@@ -71,6 +71,11 @@ const routes = [
                 component: () => import('@/views/redirect/paricla.vue')
             },
             {
+                path: 'love',
+                name: 'love',
+                component: () => import('@/views/redirect/love.vue')
+            },
+            {
                 path: 'login&regiest',
                 name: 'login&regiest',
                 component: () => import('@/views/redirect/login&regiest.vue')

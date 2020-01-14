@@ -1,3 +1,11 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-01-08 10:22:56
+ * @LastEditTime: 2020-01-14 15:52:39
+ * @LastEditors: your name
+ * @Description: In User Settings Edit
+ * @FilePath: \practice\src\views\redirect\paricla.vue
+ -->
 <!-- 粒子特效 -->
 <template>
     <div class="container">
@@ -65,6 +73,7 @@ export default {
 .container {
     width: 100%;
     height: 100%;
+    overflow: hidden;
     background: #000;
 
 }
