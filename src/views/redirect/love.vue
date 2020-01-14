@@ -1,7 +1,7 @@
 <!--
  * @Author: Mr.Wang
  * @Date: 2020-01-14 15:24:30
- * @LastEditTime : 2020-01-14 16:13:34
+ * @LastEditTime : 2020-01-14 16:19:33
  * @LastEditors  : Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \practice\src\views\redirect\love.vue
@@ -197,8 +197,8 @@ export default {
             var textAnimate = eval(Jscex.compile("async", function () {
                 var together = new Date();
                 together.setFullYear(2020,(1-1),(1-1));
-                together.setHours(9);
-                together.setMinutes(30);
+                together.setHours(0);
+                together.setMinutes(0);
                 together.setSeconds(0);
                 together.setMilliseconds(0);
                 $("#code").show().typewriter();
